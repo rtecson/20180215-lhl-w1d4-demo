@@ -16,6 +16,9 @@
 		2A53FEC72035F827007BDF78 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A53FEC62035F827007BDF78 /* Person.m */; };
 		2A53FECA2035FC86007BDF78 /* Assignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A53FEC92035FC86007BDF78 /* Assignment.m */; };
 		2A53FECD203604FF007BDF78 /* Exercise.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A53FECC203604FF007BDF78 /* Exercise.m */; };
+		2A53FED0203615DF007BDF78 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A53FECF203615DF007BDF78 /* Car.m */; };
+		2A53FED3203615ED007BDF78 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A53FED2203615ED007BDF78 /* Teacher.m */; };
+		2A53FED620361A83007BDF78 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A53FED520361A83007BDF78 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,12 @@
 		2A53FEC92035FC86007BDF78 /* Assignment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assignment.m; sourceTree = "<group>"; };
 		2A53FECB203604FF007BDF78 /* Exercise.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Exercise.h; sourceTree = "<group>"; };
 		2A53FECC203604FF007BDF78 /* Exercise.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Exercise.m; sourceTree = "<group>"; };
+		2A53FECE203615DF007BDF78 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		2A53FECF203615DF007BDF78 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		2A53FED1203615ED007BDF78 /* Teacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		2A53FED2203615ED007BDF78 /* Teacher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		2A53FED420361A83007BDF78 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		2A53FED520361A83007BDF78 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +86,12 @@
 				2A53FEC92035FC86007BDF78 /* Assignment.m */,
 				2A53FECB203604FF007BDF78 /* Exercise.h */,
 				2A53FECC203604FF007BDF78 /* Exercise.m */,
+				2A53FECE203615DF007BDF78 /* Car.h */,
+				2A53FECF203615DF007BDF78 /* Car.m */,
+				2A53FED1203615ED007BDF78 /* Teacher.h */,
+				2A53FED2203615ED007BDF78 /* Teacher.m */,
+				2A53FED420361A83007BDF78 /* Student.h */,
+				2A53FED520361A83007BDF78 /* Student.m */,
 				2A53FEB52035F812007BDF78 /* Main.storyboard */,
 				2A53FEB82035F812007BDF78 /* Assets.xcassets */,
 				2A53FEBA2035F812007BDF78 /* LaunchScreen.storyboard */,
@@ -157,12 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A53FED3203615ED007BDF78 /* Teacher.m in Sources */,
 				2A53FEB42035F812007BDF78 /* ViewController.m in Sources */,
 				2A53FECD203604FF007BDF78 /* Exercise.m in Sources */,
 				2A53FEBF2035F812007BDF78 /* main.m in Sources */,
 				2A53FEC72035F827007BDF78 /* Person.m in Sources */,
+				2A53FED0203615DF007BDF78 /* Car.m in Sources */,
 				2A53FECA2035FC86007BDF78 /* Assignment.m in Sources */,
 				2A53FEB12035F812007BDF78 /* AppDelegate.m in Sources */,
+				2A53FED620361A83007BDF78 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
